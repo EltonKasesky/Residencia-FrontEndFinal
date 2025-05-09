@@ -1,5 +1,5 @@
 {
-  "lastId": 2,
+  "lastId": 3,
   "travels": [
     {
       "id": 1,
@@ -27,6 +27,21 @@
       "preferences": [
         "pool",
         "wifi",
+        "suite"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Thayná Lima",
+      "email": "thayna@gmail.com",
+      "tel": "24123123123",
+      "origin": "RJ",
+      "destination": "SC",
+      "childBed": false,
+      "preferences": [
+        "pool",
+        "wifi",
+        "garage",
         "suite"
       ]
     }
