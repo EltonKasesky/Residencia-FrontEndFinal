@@ -129,6 +129,7 @@ footer {
 }
 
 .footer-box-left,
+.footer-box-mid,
 .footer-box-right {
     display: flex;
     flex-direction: column;
@@ -136,15 +137,18 @@ footer {
 }
 
 .footer-box-left p,
+.footer-box-mid a,
 .footer-box-right a {
     margin: 0;
 }
 
+.footer-box-mid a,
 .footer-box-right a {
     color: #fff;
     text-decoration: none;
 }
 
+.footer-box-mid a:hover,
 .footer-box-right a:hover {
     color: var(--secondary-color);
     text-decoration: underline;
@@ -190,6 +194,7 @@ footer {
     }
 
     .footer-box-left,
+    .footer-box-mid,
     .footer-box-right {
         text-align: center;
     }
