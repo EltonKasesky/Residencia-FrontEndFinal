@@ -21,11 +21,6 @@
     color: var(--main-color);
 }
 
-/* .container-fluid {
-    margin: 0 30px;
-
-} */
-
 .title i {
     font-size: 30px;
 
@@ -41,12 +36,9 @@
 
 }
 
-
 /*Banner*/
-
-
 .banner-principal {
-    background-image: url('/img/banner2.0.jpg');
+    background-image: url('/img/contact/banner2.0.jpg');
     background-size: cover;
     background-position: center;
     height: 300px;
@@ -141,22 +133,7 @@
     border-radius: 200px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    .sobre-nos-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .sobre-nos-texto,
-    .sobre-nos-imagem {
-        width: 100%;
-    }
-}
-
-
 /*Rodapé*/
-
 footer {
     display: flex;
     justify-content: center;
@@ -207,6 +184,17 @@ footer {
 }
 
 /* Responsividade */
+@media (max-width: 768px) {
+    .sobre-nos-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre-nos-texto,
+    .sobre-nos-imagem {
+        width: 100%;
+    }
+}
 
 @media (max-width: 600px) {
 
